@@ -1,0 +1,130 @@
+/*CSS DOCUMENT*/
+
+/* padding inkl width*/
+* { box-sizing: border-box;}
+
+
+/*BODY*/
+
+body {
+    background-image: url(/images/wood.jpg);
+}
+/*HEADER*/
+
+
+.box{
+    display: block;
+ padding: 70px 0;
+    border: 3px solid brown;
+    list-style-position: center;
+  font-size: 30px
+}
+
+img {
+    
+    
+    padding: 0px;
+    background-image: url("/images/black.png");
+    background-repeat: repeat-x;
+    
+    display: block;
+    margin: 0 auto;
+    max-width: 600px;
+     
+}
+
+/*Main*/
+
+p{
+position: static;
+    display: block;
+   
+    text-align: center;
+    background-color: black;
+    max-width: 500px;
+  height: 500px;
+    float: none;
+    width: 33,33%;
+    padding: 5px;
+    
+    
+    
+}
+p, a{
+font-family: Tahoma, Geneva, sans-serif;  
+    color: brown;
+    display: block;
+
+}
+
+/*LIST*/
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: black;
+    height: 300%;
+    position: fixed;
+    overflow: hidden;
+}
+
+li a {
+    display: block;
+    width: 200px;
+    padding-bottom: 20px;
+   
+    position: relative;
+    left: 20px;
+}
+
+
+li a:hover {
+    
+    color: goldenrod;
+    
+}
+
+
+.one{
+    margin-left: 220px;
+    position: relative;
+    border: 3px solid brown;
+    font-size: 30px;
+    
+    }
+    
+
+.two{
+    margin-left: 200px;
+    position: relative;
+    left: 530px;
+    bottom: 530px;
+    border: 3px solid brown;
+    font-size: 30px
+    }
+
+.three{
+    margin-left: 1240px;
+    margin-top: -1070px;
+    position: relative;
+    border: 3px solid brown;
+    
+}
+    
+.facebook{
+border: 55px;
+    border-color: black;
+    position: absolute;
+    top: 600px;
+    
+        
+}
+
+
+.wifi{
+border-color: black;
+    position: absolute;
+    left: 90px;
+    top: 600px;
+}
